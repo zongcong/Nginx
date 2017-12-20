@@ -2,47 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2e86062-6c5a-4e56-96d2-2f0f709ab795" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/conf/fastcgi.conf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/conf/fastcgi_params" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/conf/koi-utf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/conf/koi-win" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/conf/mime.types" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/conf/nginx.conf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/conf/scgi_params" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/conf/uwsgi_params" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/conf/vhost/good.conf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/conf/vhost/mall.conf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/conf/win-utf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/contrib/README" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/contrib/geo2nginx.pl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/contrib/unicode2nginx/koi-utf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/contrib/unicode2nginx/unicode-to-nginx.pl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/contrib/unicode2nginx/win-utf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/contrib/vim/ftdetect/nginx.vim" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/contrib/vim/indent/nginx.vim" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/contrib/vim/syntax/nginx.vim" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dist/static/css/app.e0605202dbb6487f6ecdad3f00a8be60.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dist/static/css/app.e0605202dbb6487f6ecdad3f00a8be60.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/app.d2aa80c0d1644aa28c6f.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/app.d2aa80c0d1644aa28c6f.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/manifest.0c0ce41baa8a5d2df663.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/manifest.0c0ce41baa8a5d2df663.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/vendor.97757474cccd2eda4f63.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/vendor.97757474cccd2eda4f63.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docs/CHANGES" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docs/CHANGES.ru" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docs/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docs/OpenSSL.LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docs/PCRE.LICENCE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docs/README" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docs/zlib.LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/html/50x.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/html/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logs/access.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logs/error.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logs/nginx.pid" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/nginx.exe" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -92,6 +51,11 @@
               <item name="Nginx" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nginx" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Nginx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nginx" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -131,12 +95,20 @@
       <option name="presentableId" value="Default" />
       <updated>1513763524433</updated>
       <workItem from="1513763525961" duration="16000" />
-      <workItem from="1513763770052" duration="227000" />
+      <workItem from="1513763770052" duration="278000" />
     </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1513764012413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513764012413</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243000" />
+    <option name="totallyTimeSpent" value="294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -146,7 +118,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -165,6 +137,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
